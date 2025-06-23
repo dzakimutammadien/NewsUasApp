@@ -4,9 +4,9 @@ import { View, Text, Image, StyleSheet, SafeAreaView } from 'react-native';
 export default function Profile() {
   return (
     <SafeAreaView style={styles.container}>
-      <Image source={{ uri: 'https://i.pravatar.cc/200' }} style={styles.avatar} />
-      <Text style={styles.name}>Dzaki Muhammad Dien</Text>
-      <Text style={styles.email}>dzaki@example.com</Text>
+      <Image source={require('../../assets/saya.png')} style={styles.avatar} />
+      <Text style={styles.name}>Dzaki Muhammaddien</Text>
+      <Text style={styles.email}>dzakimutamm@gmail.com</Text>
     </SafeAreaView>
   );
 }
